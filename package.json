@@ -1,0 +1,19 @@
+{
+  "name": "server-api-node",
+  "version": "1.0.0",
+  "description": "carls back-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miklo88/Server-API-Node.js.git"
+  },
+  "author": "carl redding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miklo88/Server-API-Node.js/issues"
+  },
+  "homepage": "https://github.com/miklo88/Server-API-Node.js#readme"
+}
