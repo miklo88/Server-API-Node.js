@@ -6,6 +6,7 @@ router.get("/", (req, res, next) => {
     url: "/",
     message: "You're in Carl's Home.js",
     operation: "GET"
+  });
 });
 
 module.exports = router;
