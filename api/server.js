@@ -3,11 +3,10 @@ const helmet = require("helmet");
 
 // SERVER
 const server = express();
-
 // ROUTER IMPORTS FOR ROUTERS
 // const actionsRouter = require("../data/routers/actionsRouter");
 // const projectsRouter = require("../data/routers/projectsRouter");
-
+const Home = require("../routes/Home");
 //GLOBAL MIDDLEWARE
 server.use(express.json());
 server.use(helmet());
@@ -15,7 +14,8 @@ server.use(helmet());
 // ROUTERS BEING UTILIZED FROM IMPORTS.
 // server.use("/actions", actionsRouter);
 // server.use("/projects", projectsRouter);
-
+// testapi to hook up to front end
+server.use("/routes/Home", Home);
 // ENDPOINTS
 // this request handler executes when making a GET request to "/
 
