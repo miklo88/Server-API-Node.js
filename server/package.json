@@ -19,7 +19,7 @@
   "homepage": "https://github.com/miklo88/Server-API-Node.js#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "helmet": "^3.21.2",
     "knex": "^0.20.6",
     "sqlite3": "^4.1.1"
